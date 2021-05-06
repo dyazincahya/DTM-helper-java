@@ -1,2 +1,2 @@
-# DATE TIME HELPER for JAVA
-Date Time Helper for JAVA, compatible for Spring Boot too
+# Date Time Manipulation (DTM) Helper for JAVA
+Date Time Manipulation (DTM) Helper for JAVA, compatible for Spring Boot too.
