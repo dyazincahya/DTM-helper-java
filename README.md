@@ -147,7 +147,7 @@ dtm.stringToDate("31/12/1998","dd/MM/yyyy");
 [kang-cahya.com](https://www.kang-cahya.com)
 
 ### Credit
-[Icon by Flaticon.com](https://www.flaticon.com/free-icon/clock_1459182)
+[Icon](https://github.com/dyazincahya/DTM-helper-java/blob/main/icon.png) by [Flaticon.com](https://www.flaticon.com/free-icon/clock_1459182)
   
 ### License
 [MIT License](https://github.com/dyazincahya/DTM-helper-java/blob/main/LICENSE)
