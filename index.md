@@ -1,3 +1,5 @@
+<img src="https://github.com/dyazincahya/DTM-helper-java/raw/main/icon.png" width="250" />
+
 # Date Time Manipulation (DTM) Helper for JAVA
 Date Time Manipulation (DTM) Helper for JAVA, compatible for Spring Boot too.
 
@@ -144,5 +146,8 @@ dtm.stringToDate("31/12/1998","dd/MM/yyyy");
 ### Author
 [kang-cahya.com](https://www.kang-cahya.com)
 
+### Credit
+[Icon](https://github.com/dyazincahya/DTM-helper-java/blob/main/icon.png) by [Flaticon.com](https://www.flaticon.com/free-icon/clock_1459182)
+  
 ### License
 [MIT License](https://github.com/dyazincahya/DTM-helper-java/blob/main/LICENSE)
