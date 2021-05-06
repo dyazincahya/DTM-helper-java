@@ -1,37 +1,148 @@
-## Welcome to GitHub Pages
+# Date Time Manipulation (DTM) Helper for JAVA
+Date Time Manipulation (DTM) Helper for JAVA, compatible for Spring Boot too.
 
-You can use the [editor on GitHub](https://github.com/dyazincahya/DTM-helper-java/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Features
+  - Manipulation day
+  - Manipulation Month
+  - Manipulation Year
+  - Manipulation Hour
+  - Manipulation Minute
+  - Manipulation Second
+  - Manipulation Milisecond
+  - Re-format Date _(convert date to string)_
+  - Convert String To Date/Date
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Has Tested
+  - Java 11
+  - Spring Boot 2.4.2
 
-### Markdown
+### Installation
+  - Download/copy file [DTM.java](https://github.com/dyazincahya/DTM-helper-java/blob/main/DTM.java) to your own project
+  - Adjust ```Package Path``` in line 2 on file [DTM.java](https://github.com/dyazincahya/DTM-helper-java/blob/main/DTM.java)
+  - Done.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Usage
 
-```markdown
-Syntax highlighted code block
+##### Manipulation Day
 
-# Header 1
-## Header 2
-### Header 3
+> dtm.day(param).getTime();
 
-- Bulleted
-- List
+Fill positive numbers on the ```Param``` to add days (1,2,3, etc), and;
+fill negative numbers on the ```Param``` to subtract days (-1, -2, -3, etc)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.day(-1).getTime();
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##### Manipulation Month
 
-### Jekyll Themes
+> dtm.month(param).getTime();
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dyazincahya/DTM-helper-java/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Fill positive numbers on the ```Param``` to add month (1,2,3, etc), and;
+fill negative numbers on the ```Param``` to subtract month (-1, -2, -3, etc)
 
-### Support or Contact
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.month(-1).getTime();
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+##### Manipulation Year
+
+> dtm.year(param).getTime();
+
+Fill positive numbers on the ```Param``` to add year (1,2,3, etc), and;
+fill negative numbers on the ```Param``` to subtract year (-1, -2, -3, etc)
+
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.year(-1).getTime();
+```
+
+##### Manipulation Hour
+
+> dtm.hour(param).getTime();
+
+Fill positive numbers on the ```Param``` to add hour (1,2,3, etc), and;
+fill negative numbers on the ```Param``` to subtract hour (-1, -2, -3, etc)
+
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.hour(-1).getTime();
+```
+
+##### Manipulation Minute
+
+> dtm.minute(param).getTime();
+
+Fill positive numbers on the ```Param``` to add minute (1,2,3, etc), and;
+fill negative numbers on the ```Param``` to subtract minute (-1, -2, -3, etc)
+
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.minute(-1).getTime();
+```
+
+##### Manipulation Second
+
+> dtm.second(param).getTime();
+
+Fill positive numbers on the ```Param``` to add second (1,2,3, etc), and;
+fill negative numbers on the ```Param``` to subtract second (-1, -2, -3, etc)
+
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.second(-1).getTime();
+```
+
+##### Manipulation Milisecond
+
+> dtm.milisecond(param).getTime();
+
+Fill positive numbers on the ```Param``` to add milisecond (1,2,3, etc), and;
+fill negative numbers on the ```Param``` to subtract milisecond (-1, -2, -3, etc)
+
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.milisecond(-1).getTime();
+```
+
+##### Re-format Date _(convert date to string)_
+
+> dtm.reFormat(param1, param2);
+
+Fill the ```Param1``` with Date data type value, and; 
+fill the ```Param2``` with Date string pattern 
+
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.reFormat(new Date(),"ddMMyyyy");
+dtm.reFormat(dtm.day(-7).getTime(),"ddMMyyyy");
+```
+
+##### String To Date
+
+> dtm.stringToDate(param1, param2);
+
+Fill the ```Param1``` with String Date, and; 
+fill the ```Param2``` with Date string pattern, but the pattern date must be the same with String Date on ```Param1``` (Ex: String Date ```"31/12/1998"```, Pattern from the string date is ```"dd/MM/yyyy"```)
+
+###### Example
+``` java
+DTM dtm = new DTM();
+dtm.stringToDate("31/12/1998","dd/MM/yyyy");
+```
+
+### Author
+[kang-cahya.com](https://www.kang-cahya.com)
+
+### License
+[MIT License](https://github.com/dyazincahya/DTM-helper-java/blob/main/LICENSE)
