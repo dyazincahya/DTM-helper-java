@@ -1,4 +1,4 @@
-// ADJUST THE PACKAGE PATH
+// ADJUST THE PACKAGE PATH 
 package kang.cahya.com.utils;
 
 // import dependencies
