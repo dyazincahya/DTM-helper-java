@@ -12,7 +12,7 @@ Date Time Manipulation (DTM) Helper for JAVA, compatible for Spring Boot too.
   - Manipulation Second
   - Manipulation Milisecond
   - Re-format Date _(convert date to string)_
-  - Convert String To Date/Date
+  - Convert String To Date/Datetime
 
 ### Has Tested
   - Java 11
