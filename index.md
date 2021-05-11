@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="https://github.com/dyazincahya/DTM-helper-java/raw/main/icon.png">
+
 <img src="https://github.com/dyazincahya/DTM-helper-java/raw/main/icon.png" width="250" />
 
 # Date Time Manipulation (DTM) Helper for JAVA
